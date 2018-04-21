@@ -7,7 +7,7 @@ This is neat.  However, the next question from my oldest child was essentially "
 
 So, I encouraged both of the children to run a small experiment, whereby they asked Alexa 100 times the results of a coin flip.  They diligently recorded their results and provided some excellent documentation.  Asking Alexa to perform this operation was slightly tedious and time consuming.  This is something a computer can perform very efficiently.
 
-<p align="center">![](./CoinRecord.png)</p>
+<p align="center"><img src="./CoinRecord.png"></p>
 
 Since both of the children have seen Python, I opted to develop a small function to perform a specified number of coin flips and report the results as the percentage of heads of the total number of flips.  As a result, one could now perform an arbitrary number of coin flips.
 
