@@ -7,7 +7,7 @@ This is neat.  However, the next question from my oldest child was essentially "
 
 So, I encouraged both of the children to run a small experiment, whereby they asked Alexa 100 times the results of a coin flip.  They diligently recorded their results and provided some excellent documentation.  Asking Alexa to perform this operation was slightly tedious and time consuming.  This is something a computer can perform very efficiently.
 
-![](./CoinRecord.png)
+->![](./CoinRecord.png)<-
 
 Since both of the children have seen Python, I opted to develop a small function to perform a specified number of coin flips and report the results as the percentage of heads of the total number of flips.  As a result, one could now perform an arbitrary number of coin flips.
 
@@ -30,3 +30,11 @@ The second task was to show how multiple experiments converge to the expected ou
 Scaling up, it was observed that there was a serious issue with the *calculateMovingAverage* function.  In particular, I realized it was grossly inefficient.  The original function was calculating the moving average by running through all *n* items in the vector and calculating the average from *index=0* to every *n* elements.  This made it *O(n^2)* in runtime.  Since the mean is comprised of every element summed together and divided by the total number of elements, if we know our position in the vector and the average, the sum of the elements can be easily computed.  Hence, it is unnecessary to compute the sum at each step.  Rather, the only necessary step at position *i* within an *n* element vector, whereby *n>i*, is to take the mean at *i-1* multiplied by *i*, added to the element at position *i*, and then divided by *i+1*.  The only fencepost condition to handle is the mean at position 0, which is the same as the value at position 0.  Overall, this brought the runtime down from 4 hours and 54 minutes on a vector of 100,000 elements to 93.6 milliseconds - that is a 314,000% improvement in runtime.
 
 Once all of these pieces were in place, it is possible to compute the moving average, quickly, for all five experimental runs and produce a graph that shows the convergence of each experiment to 50%.
+
+->![](./CoinGraph01.png)<-
+
+If it is difficult to see how chaotic the experiment is in the beginning, below is a graph showing only the first 2,000 runs.
+
+->![](./CoinGraph02.png)<-
+
+If you would like to see how it converges and interact with the graphic, check out the interactive [Bokeh](https://bokeh.pydata.org/en/latest/) plot [here](./experimentCoinToss.html)
