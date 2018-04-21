@@ -39,10 +39,8 @@ If it is difficult to see how chaotic the experiment is in the beginning, below 
 
 If you would like to see how it converges and interact with the graphic, check out the interactive [Bokeh](https://bokeh.pydata.org/en/latest/) plot [here](./experimentCoinToss.html)
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Bokeh Plot</title>
+<meta charset="utf-8">
+<title>Bokeh Plot</title>
 <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.15.min.css" type="text/css" />
         
 <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.15.min.js"></script>
@@ -89,3 +87,5 @@ If you would like to see how it converges and interact with the graphic, check o
 	else document.addEventListener("DOMContentLoaded", fn);
   })();
 </script>
+</center>
+<div class="bk-root"><div class="bk-plotdiv" id="83503b1f-9701-4698-bfb0-b7d888f43c40"></div></div>
