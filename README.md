@@ -31,10 +31,10 @@ Scaling up, it was observed that there was a serious issue with the *calculateMo
 
 Once all of these pieces were in place, it is possible to compute the moving average, quickly, for all five experimental runs and produce a graph that shows the convergence of each experiment to 50%.
 
-->![](./CoinGraph01.png)<-
+![](./CoinGraph01.png)
 
 If it is difficult to see how chaotic the experiment is in the beginning, below is a graph showing only the first 2,000 runs.
 
-->![](./CoinGraph02.png)<-
+![](./CoinGraph02.png)
 
 If you would like to see how it converges and interact with the graphic, check out the interactive [Bokeh](https://bokeh.pydata.org/en/latest/) plot [here](./experimentCoinToss.html)
