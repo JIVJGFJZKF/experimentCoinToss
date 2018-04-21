@@ -1,3 +1,6 @@
+If you extremely impatient: you can see how it converges and interact with the graphic, check out the interactive [Bokeh](https://bokeh.pydata.org/en/latest/) plot [here](https://jivjgfjzkf.github.io/experimentCoinToss/).
+
+
 # Experiment with a Fair Coin Toss
 This Jupyter notebook was designed from a fairly simple question from one of my children.  On a Saturday evening, we had learned that Alexa has a feature that allows you to ask for the results of a coin toss.
 
@@ -37,4 +40,4 @@ If it is difficult to see how chaotic the experiment is in the beginning, below 
 
 ![](./CoinGraph02.png)
 
-If you would like to see how it converges and interact with the graphic, check out the interactive [Bokeh](https://bokeh.pydata.org/en/latest/) plot [here](./experimentCoinToss.html)
+If you would like to see how it converges and interact with the graphic, check out the interactive [Bokeh](https://bokeh.pydata.org/en/latest/) plot [here](https://jivjgfjzkf.github.io/experimentCoinToss/).
