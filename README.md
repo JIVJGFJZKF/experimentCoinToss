@@ -1,4 +1,4 @@
-If you extremely impatient: you can see how it converges and interact with the graphic, check out the interactive [Bokeh](https://bokeh.pydata.org/en/latest/) plot [here](https://jivjgfjzkf.github.io/experimentCoinToss/).
+If you are extremely impatient: you can see how it converges and interact with the [Bokeh](https://bokeh.pydata.org/en/latest/) plot [here](https://jivjgfjzkf.github.io/experimentCoinToss/).
 
 
 # Experiment with a Fair Coin Toss
